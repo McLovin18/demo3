@@ -431,7 +431,7 @@ return (
                 className="font-bold text-base"
                 style={{ color: "#ffffff", letterSpacing: "0.08em" }}
               >
-                Garlo
+                Something blue Studio
               </span>
               <button
                 onClick={() => setMobileOpen(false)}
