@@ -17,9 +17,9 @@ export const revalidate = 1800;
 // Cambiar cuando tengas el dominio definitivo
 const SITE_URL =
   process.env.NEXT_PUBLIC_SITE_URL ||
-  "https://garloec.com";
+  "https://somethingbluestudio.com";
 
-const SITE_NAME = "Garloec | Ropa, Calzado y Accesorios Ecuador";
+const SITE_NAME = "Something Blue | Diseño Gráfico, Eventos y Branding Ecuador";
 
 const sourceSerif4 = Source_Serif_4({
   subsets: ["latin"],
@@ -30,26 +30,26 @@ const sourceSerif4 = Source_Serif_4({
 
 export const metadata: Metadata = {
   title: {
-    default: "Garloec | Fabricantes de Ropa, Calzado y Accesorios en Ecuador",
-    template: "%s | Garloec",
+    default: "Something Blue | Diseño Gráfico, Eventos y Branding en Ecuador",
+    template: "%s | Something Blue",
   },
 
   description:
-    "La fábrica, marca y tienda de ropa más bacana del Ecuador. Ropa, calzado y accesorios con tiendas en Ambato y Esmeraldas, y envíos a todo el país.",
+    "Events & Branding, productos únicos y personalizados. Personalizamos productos para todos tus eventos, con envíos a todo el Ecuador.",
 
   keywords: [
-    "ropa Ecuador",
-    "fábrica de ropa Ecuador",
-    "calzado Ecuador",
-    "accesorios Ecuador",
-    "ropa Ambato",
-    "ropa Esmeraldas",
-    "tienda de ropa Ecuador",
-    "Garloec",
-    "moda ecuatoriana",
-    "ropa nacional Ecuador",
-    "zapatos Ecuador",
-    "ropa al por mayor Ecuador",
+    "diseño gráfico Ecuador",
+    "branding para eventos Ecuador",
+    "productos personalizados Ecuador",
+    "gift shop Ecuador",
+    "regalos personalizados eventos",
+    "decoración de eventos Ecuador",
+    "Something Blue",
+    "Paula Ferretti diseño",
+    "productos para bodas Ecuador",
+    "papelería personalizada Ecuador",
+    "branding de marca Ecuador",
+    "diseño de eventos Ecuador",
   ],
 
   creator: SITE_NAME,
@@ -72,17 +72,17 @@ export const metadata: Metadata = {
     url: SITE_URL,
     siteName: SITE_NAME,
 
-    title: "Garloec | Ropa, Calzado y Accesorios",
+    title: "Something Blue | Diseño Gráfico, Eventos y Branding",
 
     description:
-      "La fábrica, marca y tienda de ropa más bacana del Ecuador. Tiendas en Ambato y Esmeraldas, con envíos a todo el país.",
+      "Events & Branding, productos únicos y personalizados. Personalizamos productos para todos tus eventos, con envíos a todo el Ecuador.",
 
     images: [
       {
         url: `${SITE_URL}/og-image.jpg`,
         width: 1200,
         height: 630,
-        alt: "Garloec - Ropa, calzado y accesorios",
+        alt: "Something Blue - Diseño Gráfico y Branding",
       },
     ],
   },
@@ -90,10 +90,10 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
 
-    title: "Garloec",
+    title: "Something Blue",
 
     description:
-      "La fábrica, marca y tienda de ropa más bacana del Ecuador. Tiendas en Ambato y Esmeraldas.",
+      "Events & Branding, productos únicos y personalizados con envíos a todo el Ecuador.",
 
     images: [`${SITE_URL}/twitter-image.jpg`],
   },
@@ -125,7 +125,7 @@ export const metadata: Metadata = {
     title: SITE_NAME,
   },
 
-  category: "Ropa y Accesorios",
+  category: "Diseño y Eventos",
 };
 
 export const viewport: Viewport = {
