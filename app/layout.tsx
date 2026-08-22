@@ -17,9 +17,9 @@ export const revalidate = 1800;
 // Cambiar cuando tengas el dominio definitivo
 const SITE_URL =
   process.env.NEXT_PUBLIC_SITE_URL ||
-  "https://somethingbluestudio.com";
+  "https://metamorfosis.com";
 
-const SITE_NAME = "Something Blue | Diseño Gráfico, Eventos y Branding Ecuador";
+const SITE_NAME = "Metamorfosis | Arte y Diseño Personalizado Ecuador";
 
 const sourceSerif4 = Source_Serif_4({
   subsets: ["latin"],
@@ -30,26 +30,24 @@ const sourceSerif4 = Source_Serif_4({
 
 export const metadata: Metadata = {
   title: {
-    default: "Something Blue | Diseño Gráfico, Eventos y Branding en Ecuador",
-    template: "%s | Something Blue",
+    default: "Metamorfosis | Arte y Diseño Personalizado en Quito, Ecuador",
+    template: "%s | Metamorfosis",
   },
 
   description:
-    "Events & Branding, productos únicos y personalizados. Personalizamos productos para todos tus eventos, con envíos a todo el Ecuador.",
+    "Arte y diseño personalizado hecho a mano en Quito. Cada pieza nace única, con envíos a todo el Ecuador.",
 
   keywords: [
-    "diseño gráfico Ecuador",
-    "branding para eventos Ecuador",
-    "productos personalizados Ecuador",
-    "gift shop Ecuador",
-    "regalos personalizados eventos",
-    "decoración de eventos Ecuador",
-    "Something Blue",
-    "Paula Ferretti diseño",
-    "productos para bodas Ecuador",
-    "papelería personalizada Ecuador",
-    "branding de marca Ecuador",
-    "diseño de eventos Ecuador",
+    "arte personalizado Quito",
+    "regalos personalizados Ecuador",
+    "diseño hecho a mano Quito",
+    "detalles personalizados Ecuador",
+    "Metamorfosis",
+    "emprendimiento Quito",
+    "arte floral personalizado",
+    "regalos únicos Ecuador",
+    "productos personalizados UIO",
+    "manualidades artesanales Ecuador",
   ],
 
   creator: SITE_NAME,
@@ -72,17 +70,17 @@ export const metadata: Metadata = {
     url: SITE_URL,
     siteName: SITE_NAME,
 
-    title: "Something Blue | Diseño Gráfico, Eventos y Branding",
+    title: "Metamorfosis | Arte y Diseño Personalizado",
 
     description:
-      "Events & Branding, productos únicos y personalizados. Personalizamos productos para todos tus eventos, con envíos a todo el Ecuador.",
+      "Arte y diseño personalizado hecho a mano en Quito. Cada pieza nace única, con envíos a todo el Ecuador.",
 
     images: [
       {
         url: `${SITE_URL}/og-image.jpg`,
         width: 1200,
         height: 630,
-        alt: "Something Blue - Diseño Gráfico y Branding",
+        alt: "Metamorfosis - Arte y Diseño Personalizado",
       },
     ],
   },
@@ -90,10 +88,10 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
 
-    title: "Something Blue",
+    title: "Metamorfosis",
 
     description:
-      "Events & Branding, productos únicos y personalizados con envíos a todo el Ecuador.",
+      "Arte y diseño personalizado hecho a mano, con envíos a todo el Ecuador.",
 
     images: [`${SITE_URL}/twitter-image.jpg`],
   },
@@ -125,7 +123,7 @@ export const metadata: Metadata = {
     title: SITE_NAME,
   },
 
-  category: "Diseño y Eventos",
+  category: "Arte y Diseño",
 };
 
 export const viewport: Viewport = {
