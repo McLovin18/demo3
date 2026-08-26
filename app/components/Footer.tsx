@@ -26,12 +26,12 @@ const IconWhatsApp = () => (
 );
 
 const socialLinks = [
-  { href: "https://www.instagram.com/haciendo_metamorfosis/", label: "Instagram", Icon: IconInstagram },
+  { href: "https://www.instagram.com/luxuryhomebyariana/", label: "Instagram", Icon: IconInstagram },
 ];
 
 // 👉 Información del negocio
-const WHATSAPP_NUMBER = "593962599973"; // solo números, con código de país, sin '+' ni espacios
-const WHATSAPP_DISPLAY = "+593 96 259 9973"; // como se muestra al usuario
+const WHATSAPP_NUMBER = "593997342423"; // solo números, con código de país, sin '+' ni espacios
+const WHATSAPP_DISPLAY = "+593 99 734 2423"; // como se muestra al usuario
 
 const Footer: React.FC = () => {
   const pathname = usePathname();
@@ -79,7 +79,7 @@ const Footer: React.FC = () => {
             {/* Columna 1: Información de la tienda */}
             <div className="flex flex-col items-center md:items-start text-center md:text-left gap-1">
               <span className="text-base font-bold tracking-wide text-white">
-                Metamorfosis
+                LuxuryHome EC
               </span>
 
               {instagramEnabled && instagramFollowers !== null && instagramFollowers > 0 && (
@@ -92,11 +92,10 @@ const Footer: React.FC = () => {
               )}
 
               <div className="text-xs text-white/60 mt-1 max-w-[220px]">
-                <p>Arte & Diseño Personalizado</p>
-                <p>Cada pieza nace única, hecha a mano para ti</p>
+                <p>El lujo de recibir. El arte de ser anfitriona</p>
                 <p className="flex items-center gap-1 justify-center md:justify-start mt-0.5">
                   <IconLocation />
-                  Quito, Ecuador
+                  Envíos a todo el Ecuador 🇪🇨
                 </p>
               </div>
             </div>
@@ -159,7 +158,7 @@ const Footer: React.FC = () => {
         {/* Copyright row */}
         <div className={styles.ftCopyRow}>
           <p className="text-xs text-white/50">
-            © {new Date().getFullYear()} Metamorfosis. Todos los derechos reservados.
+            © {new Date().getFullYear()} LuxuryHome Ec. Todos los derechos reservados.
           </p>
           <div className={styles.ftCopyRight}>
             <div className="flex items-center gap-1.5 text-xs text-white/60">

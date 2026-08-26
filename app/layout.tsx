@@ -19,7 +19,7 @@ const SITE_URL =
   process.env.NEXT_PUBLIC_SITE_URL ||
   "https://metamorfosis.com";
 
-const SITE_NAME = "Metamorfosis | Arte y Diseño Personalizado Ecuador";
+const SITE_NAME = "LuxuryHome |Venta y curaduría de piezas para la mesa y el hogar";
 
 const sourceSerif4 = Source_Serif_4({
   subsets: ["latin"],
@@ -30,24 +30,16 @@ const sourceSerif4 = Source_Serif_4({
 
 export const metadata: Metadata = {
   title: {
-    default: "Metamorfosis | Arte y Diseño Personalizado en Quito, Ecuador",
+    default: "LuxuryHome |Venta y curaduría de piezas para la mesa y el hogar",
     template: "%s | Metamorfosis",
   },
 
   description:
-    "Arte y diseño personalizado hecho a mano en Quito. Cada pieza nace única, con envíos a todo el Ecuador.",
+    "LuxuryHome |Venta y curaduría de piezas para la mesa y el hogar",
 
   keywords: [
-    "arte personalizado Quito",
-    "regalos personalizados Ecuador",
-    "diseño hecho a mano Quito",
-    "detalles personalizados Ecuador",
-    "Metamorfosis",
-    "emprendimiento Quito",
-    "arte floral personalizado",
-    "regalos únicos Ecuador",
-    "productos personalizados UIO",
-    "manualidades artesanales Ecuador",
+    "LuxuryHome |Venta y curaduría de piezas para la mesa y el hogar",
+
   ],
 
   creator: SITE_NAME,
@@ -70,17 +62,17 @@ export const metadata: Metadata = {
     url: SITE_URL,
     siteName: SITE_NAME,
 
-    title: "Metamorfosis | Arte y Diseño Personalizado",
+    title: "LuxuryHome |Venta y curaduría de piezas para la mesa y el hogar",
 
     description:
-      "Arte y diseño personalizado hecho a mano en Quito. Cada pieza nace única, con envíos a todo el Ecuador.",
+      "LuxuryHome |Venta y curaduría de piezas para la mesa y el hogar.",
 
     images: [
       {
         url: `${SITE_URL}/og-image.jpg`,
         width: 1200,
         height: 630,
-        alt: "Metamorfosis - Arte y Diseño Personalizado",
+        alt: "LuxuryHome |Venta y curaduría de piezas para la mesa y el hogar",
       },
     ],
   },
@@ -123,7 +115,7 @@ export const metadata: Metadata = {
     title: SITE_NAME,
   },
 
-  category: "Arte y Diseño",
+  category: "mesa y hogar",
 };
 
 export const viewport: Viewport = {
