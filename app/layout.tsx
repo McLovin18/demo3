@@ -17,9 +17,9 @@ export const revalidate = 1800;
 // Cambiar cuando tengas el dominio definitivo
 const SITE_URL =
   process.env.NEXT_PUBLIC_SITE_URL ||
-  "https://metamorfosis.com";
+  "https://calikidsmobiliario.com";
 
-const SITE_NAME = "LuxuryHome |Venta y curaduría de piezas para la mesa y el hogar";
+const SITE_NAME = "CALI KIDS | Diseño & muebles infantiles a medida";
 
 const sourceSerif4 = Source_Serif_4({
   subsets: ["latin"],
@@ -30,16 +30,18 @@ const sourceSerif4 = Source_Serif_4({
 
 export const metadata: Metadata = {
   title: {
-    default: "LuxuryHome |Venta y curaduría de piezas para la mesa y el hogar",
-    template: "%s | Metamorfosis",
+    default: "CALI KIDS | Diseño & muebles infantiles a medida",
+    template: "%s | CALI KIDS",
   },
 
   description:
-    "LuxuryHome |Venta y curaduría de piezas para la mesa y el hogar",
+    "Mobiliario infantil fabricado a medida, 100% en madera. Envíos a todo el Ecuador.",
 
   keywords: [
-    "LuxuryHome |Venta y curaduría de piezas para la mesa y el hogar",
-
+    "muebles infantiles",
+    "mobiliario infantil a medida",
+    "muebles de madera para niños",
+    "diseño de muebles infantiles Ecuador",
   ],
 
   creator: SITE_NAME,
@@ -62,17 +64,17 @@ export const metadata: Metadata = {
     url: SITE_URL,
     siteName: SITE_NAME,
 
-    title: "LuxuryHome |Venta y curaduría de piezas para la mesa y el hogar",
+    title: "CALI KIDS | Diseño & muebles infantiles a medida",
 
     description:
-      "LuxuryHome |Venta y curaduría de piezas para la mesa y el hogar.",
+      "Mobiliario infantil fabricado a medida, 100% en madera. Envíos a todo el Ecuador.",
 
     images: [
       {
         url: `${SITE_URL}/og-image.jpg`,
         width: 1200,
         height: 630,
-        alt: "LuxuryHome |Venta y curaduría de piezas para la mesa y el hogar",
+        alt: "CALI KIDS | Diseño & muebles infantiles a medida",
       },
     ],
   },
@@ -80,10 +82,10 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
 
-    title: "Metamorfosis",
+    title: "CALI KIDS",
 
     description:
-      "Arte y diseño personalizado hecho a mano, con envíos a todo el Ecuador.",
+      "Mobiliario infantil fabricado a medida, 100% en madera. Envíos a todo el Ecuador.",
 
     images: [`${SITE_URL}/twitter-image.jpg`],
   },
@@ -115,7 +117,7 @@ export const metadata: Metadata = {
     title: SITE_NAME,
   },
 
-  category: "mesa y hogar",
+  category: "muebles infantiles",
 };
 
 export const viewport: Viewport = {
